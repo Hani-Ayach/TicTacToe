@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import {
+  timeInterval,
+  TimeInterval,
+} from 'rxjs/internal/operators/timeInterval';
 
 @Component({
   selector: 'app-board',
@@ -23,13 +27,18 @@ export class BoardComponent implements OnInit {
     return this.xIsNext ? 'X' : 'O';
   }
   makeMove(idx: number) {
-    console.log(idx)
+    console.log(idx);
     if (!this.squares[idx]) {
       this.squares.splice(idx, 1, this.player);
       this.xIsNext = !this.xIsNext;
     }
     this.winner = this.calculateWinner();
+
+    if (this.winner == 'X' || this.winner == 'Y') {
+      setInterval(() => this.newGame(), 3000);
+    }
   }
+
   calculateWinner(): any {
     const lines = [
       [0, 1, 2],
@@ -41,7 +50,7 @@ export class BoardComponent implements OnInit {
       [0, 4, 8],
       [2, 4, 6],
     ];
-    for(let i = 0; i < lines.length; i++) {
+    for (let i = 0; i < lines.length; i++) {
       const [a, b, c] = lines[i];
       if (
         this.squares[a] &&

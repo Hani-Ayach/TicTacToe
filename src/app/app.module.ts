@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { SquareComponent } from './square/square.component';
 import { BoardComponent } from './board/board.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NbThemeModule, NbLayoutModule, NbButtonModule } from '@nebular/theme';
+import { NbThemeModule, NbLayoutModule, NbButtonModule, NbCardComponent, NbCardModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from 'src/environments/environment.prod';
@@ -25,6 +25,7 @@ import { environment } from 'src/environments/environment.prod';
     NbLayoutModule,
     NbEvaIconsModule,
     NbButtonModule,
+    NbCardModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the application is stable

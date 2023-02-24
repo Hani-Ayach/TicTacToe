@@ -1,15 +1,32 @@
-<h1>Current Player: {{ player }}</h1>
+<h1 class="m-3">Current Player: {{ player }}</h1>
 
-<button nbButton outline status="danger" (click)="newGame()">Start New Game</button>
+<button class="m-3 mb-4" nbButton outline status="danger" (click)="newGame()">
+  Start New Game
+</button>
 
-<h2 *ngIf="winner">Player {{ winner }} won the game!</h2>
-
-<main>
-
-  <app-square
-    *ngFor="let val of squares; let i = index"
-    [value]="val"
-    (click)="makeMove(i)"
-  >
-  </app-square>
-</main>
+<nb-flip-card  [className]="!!winner?'flipped':''" [showToggleButton]="false">
+  <nb-card-front id="card" >
+    <nb-card>
+      <nb-card-body>
+        <main class="row justify-content-center m-3">
+          <app-square
+            class="p-0"
+            *ngFor="let val of squares; let i = index"
+            [value]="val"
+            (click)="makeMove(i)"
+          >
+          </app-square>
+        </main>
+      </nb-card-body>
+    </nb-card>
+  </nb-card-front>
+  <nb-card-back *ngIf="winner">
+    <nb-card>
+      <nb-card-body>
+        <h1 class="m-3 mb-4" *ngIf="winner">
+          Player {{ winner }} won the game!
+        </h1>
+      </nb-card-body>
+    </nb-card>
+  </nb-card-back>
+</nb-flip-card>

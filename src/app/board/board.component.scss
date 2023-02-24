@@ -6,5 +6,16 @@ main{
 app-square{
   border: 1px gray solid;
   height: 200px;
-  font-size:xx-large;
+}
+
+@media screen and (max-width:650px) {
+  main{
+    display: grid;
+    grid-template-columns:100px 100px 100px;
+    grid-gap: 0px;
+  }
+  app-square{
+    border: 1px gray solid;
+    height: 100px;
+  }
 }
