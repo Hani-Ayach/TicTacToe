@@ -1,7 +1,7 @@
 <div  [ngClass]="lang=='ar'?'rtl':'ltr'">
 <div class="row justify-content-between m-3">
-  <h1 class="col col-8 d-flex justify-content-start" i18n>{{'currentPlayer'|translate}}:{{ player }}</h1>
-  <div class="col col-4 d-flex justify-content-end">
+  <h1 class="col col-7 d-flex justify-content-start" i18n>{{'currentPlayer'|translate}}:{{ player }}</h1>
+  <div class="col col-5 d-flex justify-content-end">
     <button class="btn"  [ngClass]="!!isEnglish?'btn-outline-primary':'btn-primary'"   (click)="OnChangeLang('ar')">AR</button>
     <button class="btn"  [ngClass]="!!isEnglish?'btn-primary':'btn-outline-primary'" (click)="OnChangeLang('en')">EN</button>
   </div>
