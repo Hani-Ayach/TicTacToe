@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1677776231271,
-  "index": "/TicTacToe/index.html",
+  "timestamp": 1677778132468,
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,14 +11,14 @@
         "ignoreVary": true
       },
       "urls": [
-        "/TicTacToe/favicon.ico",
-        "/TicTacToe/index.html",
-        "/TicTacToe/main.2b49648f25effd58.js",
-        "/TicTacToe/manifest.webmanifest",
-        "/TicTacToe/polyfills.0eacf2b312c8b3a6.js",
-        "/TicTacToe/runtime.fae3a14f01276c7f.js",
-        "/TicTacToe/scripts.c91eedceb4883133.js",
-        "/TicTacToe/styles.164126f24b404236.css"
+        "/favicon.ico",
+        "/index.html",
+        "/main.2b49648f25effd58.js",
+        "/manifest.webmanifest",
+        "/polyfills.0eacf2b312c8b3a6.js",
+        "/runtime.fae3a14f01276c7f.js",
+        "/scripts.c91eedceb4883133.js",
+        "/styles.164126f24b404236.css"
       ],
       "patterns": []
     },
@@ -35,14 +35,14 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/TicTacToe/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/TicTacToe/index.html": "45a3c0e93dd8fae2c17b8dc51e7bb48e06f0196b",
-    "/TicTacToe/main.2b49648f25effd58.js": "184a167eb5fd5b34ffdd5d579e9c92fc6948f8d4",
-    "/TicTacToe/manifest.webmanifest": "90c56924b50a766cdc42ed4289af4da07bff4c65",
-    "/TicTacToe/polyfills.0eacf2b312c8b3a6.js": "a310afe3463e5285207a6dc18b8e25742289550b",
-    "/TicTacToe/runtime.fae3a14f01276c7f.js": "4934c2dd0f097b25c7db2712d6e55ad9b6fcd14b",
-    "/TicTacToe/scripts.c91eedceb4883133.js": "6ba74230f51147bf9c36876f677467b57cb7883d",
-    "/TicTacToe/styles.164126f24b404236.css": "1257bb1f5d4ab6ac36df056c80213ff3d3e1a9c9"
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "5a79de91ce4248638b4fc84831167f739d4612cf",
+    "/main.2b49648f25effd58.js": "184a167eb5fd5b34ffdd5d579e9c92fc6948f8d4",
+    "/manifest.webmanifest": "90c56924b50a766cdc42ed4289af4da07bff4c65",
+    "/polyfills.0eacf2b312c8b3a6.js": "a310afe3463e5285207a6dc18b8e25742289550b",
+    "/runtime.fae3a14f01276c7f.js": "4934c2dd0f097b25c7db2712d6e55ad9b6fcd14b",
+    "/scripts.c91eedceb4883133.js": "6ba74230f51147bf9c36876f677467b57cb7883d",
+    "/styles.164126f24b404236.css": "1257bb1f5d4ab6ac36df056c80213ff3d3e1a9c9"
   },
   "navigationUrls": [
     {
