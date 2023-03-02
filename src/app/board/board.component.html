@@ -1,15 +1,22 @@
 <div  [ngClass]="lang=='ar'?'rtl':'ltr'">
+
 <div class="row justify-content-between m-3">
-  <h1 class="col col-7 d-flex justify-content-start">{{'currentPlayer'|translate}}:{{ player }}</h1>
+  <h1 *ngIf="!!isEnglish" class="col col-7 d-flex justify-content-start">Current Player{{'currentPlayer'|translate}}:{{ player }}</h1>
+  <h1 *ngIf="!isEnglish" class="col col-7 d-flex justify-content-start">الحالي اللاعب{{'currentPlayer'|translate}}:{{ player }}</h1>
+
   <div class="col col-5 d-flex justify-content-end">
     <button class="btn"  [ngClass]="!!isEnglish?'btn-outline-primary':'btn-primary'"   (click)="OnChangeLang('ar')">AR</button>
     <button class="btn"  [ngClass]="!!isEnglish?'btn-primary':'btn-outline-primary'" (click)="OnChangeLang('en')">EN</button>
   </div>
 </div>
 
-<button class="m-3 mb-4 d-flex" nbButton outline status="danger" (click)="newGame()">
-  {{'startNewGame'|translate}}
+<button *ngIf="!!isEnglish" class="m-3 mb-4 d-flex" nbButton outline status="danger" (click)="newGame()">
+  Start New Game{{'startNewGame'|translate}}
 </button>
+<button *ngIf="!isEnglish" class="m-3 mb-4 d-flex" nbButton outline status="danger" (click)="newGame()">
+  ابدأ من جديد{{'startNewGame'|translate}}
+</button>
+
 </div>
 <nb-flip-card  [className]="!!winner?'flipped':''" [showToggleButton]="false">
   <nb-card-front id="card" >
@@ -30,8 +37,11 @@
   <nb-card-back *ngIf="winner">
     <nb-card>
       <nb-card-body>
-        <h1 class="m-3 mb-4" *ngIf="winner" [ngClass]="lang=='ar'?'rtl':'ltr'">
-          {{'player'|translate}} {{ winner }} {{'wonTheGame'|translate}}  !
+        <h1 *ngIf="!!isEnglish && winner" class="m-3 mb-4" [ngClass]="lang=='ar'?'rtl':'ltr'">
+          Player{{'player'|translate}} {{ winner }} won the game{{'wonTheGame'|translate}}  !
+        </h1>
+        <h1 *ngIf="!isEnglish && winner" class="m-3 mb-4" [ngClass]="lang=='ar'?'rtl':'ltr'">
+          اللاعب{{'player'|translate}} {{ winner }} ربح في اللعبة{{'wonTheGame'|translate}}  !
         </h1>
       </nb-card-body>
     </nb-card>

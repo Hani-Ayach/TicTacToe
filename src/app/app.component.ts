@@ -8,10 +8,17 @@ import {TranslateService} from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'ticTacToe';
+  isEnglish:boolean=true;
   lang='en'
   constructor(private translateService:TranslateService){
     this.lang=localStorage.getItem('lang')||'en';
     this.translateService.setDefaultLang('en');
     this.translateService.use(this.lang);
+  }
+  ngOnInit(): void {
+    if(this.lang=='ar')
+    this.isEnglish=false;
+    else
+    this.isEnglish=true;
   }
 }

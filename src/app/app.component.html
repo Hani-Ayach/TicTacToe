@@ -4,9 +4,13 @@
   </nb-layout-column>
 
   <nb-layout-footer fixed>
-    <p class="text-muted">
+    <p *ngIf="!!isEnglish" class="text-muted">
       © 2023 HaniRahifAyach Full Stack Web Developer.
-      {{ "allRightsReserved" | translate }}.
+      All rights reserved{{ "allRightsReserved" | translate }}.
+    </p>
+    <p *ngIf="!isEnglish"class="text-muted">
+      © 2023 HaniRahifAyach Full Stack Web Developer.
+      جميع الحقوق محفوظة{{ "allRightsReserved" | translate }}.
     </p>
   </nb-layout-footer>
 </nb-layout>
