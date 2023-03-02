@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "ticTacToe": {
-      "projectType": "application",
+    "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
@@ -24,14 +24,17 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              { "glob": "**/*", "input": "src/assets", "output":"TicTacToe/assets" }
+              "src/favicon.ico",
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
-
             "styles": [
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ],
             "serviceWorker": true,
             "ngswConfigPath": "ngsw-config.json"
           },
@@ -98,7 +101,9 @@
               "src/assets",
               "src/manifest.webmanifest"
             ],
-            "styles": ["src/styles.scss"],
+            "styles": [
+              "src/styles.scss"
+            ],
             "scripts": []
           }
         },
