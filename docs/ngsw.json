@@ -29,7 +29,9 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [],
+      "urls": [
+      "/TicTacToe/assets/i18n/ar.json",
+      "/TicTacToe/assets/i18n/en.json"],
       "patterns": []
     }
   ],
