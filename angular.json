@@ -4,13 +4,6 @@
   "newProjectRoot": "projects",
   "projects": {
     "ticTacToe": {
-      "sourceLocale":"en-US",
-      "locales":{
-        "ar": {
-         "translation": "src/local/messages.ar.xlf",
-         "baseHref":""
-        }
-      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +17,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize":true,
             "outputPath": "dist/tic-tac-toe",
             "index": "src/index.html",
             "main": "src/main.ts",
