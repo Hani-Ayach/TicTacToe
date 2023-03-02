@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1677748407752,
-  "index": "/index.html",
+  "timestamp": 1677748774178,
+  "index": "/TicTacToe/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,14 +11,14 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.a6dfe7e4494dd657.js",
-        "/manifest.webmanifest",
-        "/polyfills.0eacf2b312c8b3a6.js",
-        "/runtime.fae3a14f01276c7f.js",
-        "/scripts.c91eedceb4883133.js",
-        "/styles.164126f24b404236.css"
+        "/TicTacToe/favicon.ico",
+        "/TicTacToe/index.html",
+        "/TicTacToe/main.a6dfe7e4494dd657.js",
+        "/TicTacToe/manifest.webmanifest",
+        "/TicTacToe/polyfills.0eacf2b312c8b3a6.js",
+        "/TicTacToe/runtime.fae3a14f01276c7f.js",
+        "/TicTacToe/scripts.c91eedceb4883133.js",
+        "/TicTacToe/styles.164126f24b404236.css"
       ],
       "patterns": []
     },
@@ -30,40 +30,40 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/i18n/ar.json",
-        "/assets/i18n/en.json",
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/TicTacToe/assets/i18n/ar.json",
+        "/TicTacToe/assets/i18n/en.json",
+        "/TicTacToe/assets/icons/icon-128x128.png",
+        "/TicTacToe/assets/icons/icon-144x144.png",
+        "/TicTacToe/assets/icons/icon-152x152.png",
+        "/TicTacToe/assets/icons/icon-192x192.png",
+        "/TicTacToe/assets/icons/icon-384x384.png",
+        "/TicTacToe/assets/icons/icon-512x512.png",
+        "/TicTacToe/assets/icons/icon-72x72.png",
+        "/TicTacToe/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/i18n/ar.json": "df1d3be36e57959640a78ce6d4f20713a9a05af8",
-    "/assets/i18n/en.json": "bfe55fa82968eed576803cb6913076f4926da96d",
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "59a5c7ebb63cb63334b8be7846e4aa6c45b259bb",
-    "/main.a6dfe7e4494dd657.js": "c94e7495ce7df6ff40dd34b652b5debe9e6b8139",
-    "/manifest.webmanifest": "90c56924b50a766cdc42ed4289af4da07bff4c65",
-    "/polyfills.0eacf2b312c8b3a6.js": "a310afe3463e5285207a6dc18b8e25742289550b",
-    "/runtime.fae3a14f01276c7f.js": "4934c2dd0f097b25c7db2712d6e55ad9b6fcd14b",
-    "/scripts.c91eedceb4883133.js": "6ba74230f51147bf9c36876f677467b57cb7883d",
-    "/styles.164126f24b404236.css": "1257bb1f5d4ab6ac36df056c80213ff3d3e1a9c9"
+    "/TicTacToe/assets/i18n/ar.json": "df1d3be36e57959640a78ce6d4f20713a9a05af8",
+    "/TicTacToe/assets/i18n/en.json": "bfe55fa82968eed576803cb6913076f4926da96d",
+    "/TicTacToe/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/TicTacToe/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/TicTacToe/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/TicTacToe/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/TicTacToe/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/TicTacToe/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/TicTacToe/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/TicTacToe/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/TicTacToe/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/TicTacToe/index.html": "d046fc665026063b2c1ef32a89b6e1bc9bfe00f4",
+    "/TicTacToe/main.a6dfe7e4494dd657.js": "c94e7495ce7df6ff40dd34b652b5debe9e6b8139",
+    "/TicTacToe/manifest.webmanifest": "90c56924b50a766cdc42ed4289af4da07bff4c65",
+    "/TicTacToe/polyfills.0eacf2b312c8b3a6.js": "a310afe3463e5285207a6dc18b8e25742289550b",
+    "/TicTacToe/runtime.fae3a14f01276c7f.js": "4934c2dd0f097b25c7db2712d6e55ad9b6fcd14b",
+    "/TicTacToe/scripts.c91eedceb4883133.js": "6ba74230f51147bf9c36876f677467b57cb7883d",
+    "/TicTacToe/styles.164126f24b404236.css": "1257bb1f5d4ab6ac36df056c80213ff3d3e1a9c9"
   },
   "navigationUrls": [
     {
