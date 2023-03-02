@@ -12,7 +12,7 @@ export class BoardComponent implements OnInit {
   winner!: string;
   isEnglish:boolean=true;
   lang:string='en';
-  constructor(private http:HttpClient) {}
+  constructor() {}
 
   ngOnInit(): void {
     this.newGame();
